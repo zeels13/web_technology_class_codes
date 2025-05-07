@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timetable</title>
+    <style>
+        body {
+            text-align: center; /* Centers the table horizontally */
+        }
+        table {
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+        th, td {
+            border: 1px solid black
+            padding: 8px;
+        }
+        .lunch-break {
+            background-color: lightgray;
+            font-weight: bold;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
+        }
+        tr, td, th {
+            border: 1px solid black;
+        }
+    </style> 
+</head>
+<body>
+
+<table>
+<!-- <colgroup>
+    <col span="2" style="background-color:cornflowerblue"> 
+    effect is applied for 3 columns only where red is for 2 columns and the next column is yellow
+    <col style="background-color:palevioletred">
+</colgroup>-->
+    <tr>
+        <th>TIME</th>
+        <th>Particular</th>
+        <th>MONDAY</th>
+        <th>TUESDAY</th>
+        <th>WEDNESDAY</th>
+        <th>THURSDAY</th>
+        <th>FRIDAY</th>
+        <th>SATURDAY</th>
+    </tr>
+
+    <tr>
+        <td rowspan="3">10:00 TO 11:00</td>
+        <td>Course Code</td>
+        <td>CS154</td>
+        <td></td>
+        <td rowspan="6">ENG209 - Batch A1<br>VP<br><br>504<br><br>CS158 - Batch A2<br><br>SP<br><br>505</td>
+        <td rowspan="6">CS194 - Batch A1<br>SP<br>303<br>ENG208 - Batch A2<br>UP<br>A402</td>
+        <td rowspan="6">CS194 - Batch A2<br>SP<br>504<br>ENG208 - Batch A1<br>UP<br>A402</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Faculty Name</td>
+        <td>SS</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Room No.</td>
+        <td>511</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">11:00 TO 12:00</td>
+        <td>Course Code</td>
+        <td>CS193</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Faculty Name</td>
+        <td>SV</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Room No.</td>
+        <td>511</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">12:00 TO 13:00</td>
+        <td>Course Code</td>
+        <td>CS157</td>
+        <td></td>
+        <td>CS154</td>
+        <td>CS154</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Faculty Name</td>
+        <td>YC</td>
+        <td></td>
+        <td>SS</td>
+        <td>SS</td>
+        <td>SV</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Room No.</td>
+        <td>511</td>
+        <td></td>
+        <td>507</td>
+        <td>507</td>
+        <td>511</td>
+        <td></td>
+    </tr>
+
+    <tr class="lunch-break">
+        <td colspan="8">LUNCH BREAK</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">14:00 TO 15:00</td>
+        <td>Course Code</td>
+        <td rowspan="6">CS194 - Batch A1<br>SV<br><br>303<br><br>CS 158 - Batch A2<br><br>SP<br><br>702<br></td>
+        <td></td>
+        <td></td>
+        <td>ENG207</td>
+        <td rowspan="6">ENG209 - Batch A1<br>VP<br><br>504<br><br>CS194 - Batch A2<br><br>SV<br><br>303<br></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Faculty Name</td>
+        <td></td>
+        <td></td>
+        <td>UP</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Room No.</td>
+        <td></td>
+        <td></td>
+        <td>511</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">15:00 TO 16:00</td>
+        <td>Course Code</td>
+        <td></td>
+        <td></td>
+        <td>ENG209</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Faculty Name</td>
+        <td></td>
+        <td></td>
+        <td>VP</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Room No.</td>
+        <td></td>
+        <td></td>
+        <td>511</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">16:00 TO 17:00</td>
+        <td>Course Code</td>
+        <td>ENG207</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>CS157</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Faculty Name</td>
+        <td>UP</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>YC</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Room No.</td>
+        <td>511</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>501</td>
+        <td></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
